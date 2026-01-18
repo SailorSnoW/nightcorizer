@@ -38,6 +38,23 @@ bun run build
 bun run preview
 ```
 
+## Deployment (Cloudflare Pages)
+
+```bash
+# First time: login to Cloudflare
+wrangler login
+
+# Deploy to production
+bun run deploy
+
+# Deploy preview
+bun run deploy:preview
+```
+
+Or connect your GitHub repo to Cloudflare Pages with:
+- Build command: `bun run build`
+- Output directory: `dist`
+
 ## License
 
 MIT — [snxw.moe](https://snxw.moe)
