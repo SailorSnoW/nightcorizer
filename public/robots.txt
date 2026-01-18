@@ -1,0 +1,6 @@
+# Nightcorizer - Robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nightcorizer.snxw.moe/sitemap.xml
